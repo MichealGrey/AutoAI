@@ -1,0 +1,477 @@
+2026-03-23 22:01:37,027 - INFO - 正在初始化浏览器...
+2026-03-23 22:01:37,028 - INFO - ====== WebDriver manager ======
+2026-03-23 22:01:39,076 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-23 22:01:40,711 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-23 22:01:41,713 - INFO - There is no [win64] chromedriver "146.0.7680.153" for browser google-chrome "146.0.7680" in cache
+2026-03-23 22:01:41,713 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-23 22:01:43,398 - INFO - WebDriver version 146.0.7680.153 selected
+2026-03-23 22:01:43,409 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/146.0.7680.153/win32/chromedriver-win32.zip
+2026-03-23 22:01:43,412 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/146.0.7680.153/win32/chromedriver-win32.zip
+2026-03-23 22:01:44,404 - INFO - Driver downloading response is 200
+2026-03-23 22:01:57,044 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-23 22:01:58,156 - INFO - Driver has been saved in cache [C:\Users\Administrator\.wdm\drivers\chromedriver\win64\146.0.7680.153]
+2026-03-23 22:02:04,784 - INFO - 浏览器初始化成功
+2026-03-23 22:02:04,784 - INFO - 正在访问Boss直聘网站...
+2026-03-23 22:02:20,137 - INFO - 可能已经处于登录状态
+2026-03-23 22:02:20,137 - INFO - 开始搜索职位: 城市=苏州, 关键词=开发者
+2026-03-23 22:02:30,559 - ERROR - 搜索职位时出错: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x777c13+10dd3]
+	chromedriver!GetHandleVerifier [0x777d44+10f04]
+	chromedriver!(No symbol) [0x551f50]
+	chromedriver!(No symbol) [0x59a9aa]
+	chromedriver!(No symbol) [0x59ac4b]
+	chromedriver!(No symbol) [0x5dcee2]
+	chromedriver!(No symbol) [0x5bd954]
+	chromedriver!(No symbol) [0x5da7de]
+	chromedriver!(No symbol) [0x5bd6a6]
+	chromedriver!(No symbol) [0x590029]
+	chromedriver!(No symbol) [0x590de4]
+	chromedriver!GetHandleVerifier [0x9d4509+26d6c9]
+	chromedriver!GetHandleVerifier [0x9cfb43+268d03]
+	chromedriver!GetHandleVerifier [0x9ed85b+286a1b]
+	chromedriver!GetHandleVerifier [0x791668+2a828]
+	chromedriver!GetHandleVerifier [0x7997fd+329bd]
+	chromedriver!GetHandleVerifier [0x780588+19748]
+	chromedriver!GetHandleVerifier [0x780752+19912]
+	chromedriver!GetHandleVerifier [0x7699da+2b9a]
+	KERNEL32!BaseThreadInitThunk [0x76dd6359+19]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77247c24+e4]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77247bf4+b4]
+
+2026-03-23 22:02:30,563 - ERROR - 运行过程中出错: Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x777c13+10dd3]
+	chromedriver!GetHandleVerifier [0x777d44+10f04]
+	chromedriver!(No symbol) [0x551f50]
+	chromedriver!(No symbol) [0x59a9aa]
+	chromedriver!(No symbol) [0x59ac4b]
+	chromedriver!(No symbol) [0x5dcee2]
+	chromedriver!(No symbol) [0x5bd954]
+	chromedriver!(No symbol) [0x5da7de]
+	chromedriver!(No symbol) [0x5bd6a6]
+	chromedriver!(No symbol) [0x590029]
+	chromedriver!(No symbol) [0x590de4]
+	chromedriver!GetHandleVerifier [0x9d4509+26d6c9]
+	chromedriver!GetHandleVerifier [0x9cfb43+268d03]
+	chromedriver!GetHandleVerifier [0x9ed85b+286a1b]
+	chromedriver!GetHandleVerifier [0x791668+2a828]
+	chromedriver!GetHandleVerifier [0x7997fd+329bd]
+	chromedriver!GetHandleVerifier [0x780588+19748]
+	chromedriver!GetHandleVerifier [0x780752+19912]
+	chromedriver!GetHandleVerifier [0x7699da+2b9a]
+	KERNEL32!BaseThreadInitThunk [0x76dd6359+19]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77247c24+e4]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77247bf4+b4]
+
+2026-03-23 22:02:30,566 - INFO - 正在关闭浏览器...
+2026-03-23 22:31:21,048 - INFO - 正在初始化浏览器...
+2026-03-23 22:31:21,074 - INFO - ====== WebDriver manager ======
+2026-03-23 22:31:22,924 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-23 22:31:24,348 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-23 22:31:25,667 - INFO - Driver [C:\Users\Administrator\.wdm\drivers\chromedriver\win64\146.0.7680.153\chromedriver-win32/chromedriver.exe] found in cache
+2026-03-23 22:31:28,874 - INFO - 浏览器初始化成功
+2026-03-23 22:31:28,874 - INFO - 正在访问Boss直聘网站...
+2026-03-23 22:32:16,158 - INFO - 可能已经处于登录状态或页面结构不同
+2026-03-23 22:32:19,159 - INFO - 开始搜索职位: 城市=苏州, 关键词=开发者
+2026-03-23 22:33:12,620 - ERROR - 无法找到搜索框，尝试直接访问搜索URL
+2026-03-23 22:33:18,939 - INFO - 已跳转到搜索页面: https://www.zhipin.com/web/geek/job?query=开发者&city=101210100
+2026-03-23 22:33:18,939 - INFO - 正在应用筛选条件...
+2026-03-23 22:35:53,127 - INFO - 筛选条件应用完成
+2026-03-23 22:35:53,127 - INFO - 开始收集职位信息，最多翻页 3 页...
+2026-03-23 22:35:53,127 - INFO - 正在处理第 1 页...
+2026-03-23 22:36:36,357 - WARNING - 未找到职位卡片，可能页面未加载完成
+2026-03-23 22:37:19,586 - INFO - 找到 0 个职位卡片
+2026-03-23 22:37:54,767 - INFO - 没有更多页面了
+2026-03-23 22:37:54,767 - INFO - 共收集到 0 个符合条件的职位
+2026-03-23 22:37:54,767 - WARNING - 未收集到任何职位信息
+2026-03-23 22:37:54,768 - INFO - 正在关闭浏览器...
+2026-03-23 22:59:03,657 - INFO - 正在初始化浏览器...
+2026-03-23 22:59:03,658 - INFO - ====== WebDriver manager ======
+2026-03-23 22:59:05,068 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-23 22:59:25,278 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-23 22:59:41,072 - INFO - Driver [C:\Users\Administrator\.wdm\drivers\chromedriver\win64\146.0.7680.153\chromedriver-win32/chromedriver.exe] found in cache
+2026-03-23 22:59:42,861 - INFO - 浏览器初始化成功
+2026-03-23 22:59:42,861 - INFO - 正在访问Boss直聘网站...
+2026-03-23 22:59:56,119 - INFO - 可能已经处于登录状态或页面结构不同
+2026-03-23 22:59:59,120 - INFO - 开始搜索职位: 城市=苏州, 关键词=开发者
+2026-03-23 23:00:02,141 - ERROR - 无法找到搜索框，尝试直接访问搜索URL
+2026-03-23 23:00:02,143 - ERROR - 搜索职位时出错: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xc97c13+10dd3]
+	chromedriver!GetHandleVerifier [0xc97d44+10f04]
+	chromedriver!(No symbol) [0xa71d8e]
+	chromedriver!(No symbol) [0xaaf2b5]
+	chromedriver!(No symbol) [0xadd7c6]
+	chromedriver!(No symbol) [0xad8c41]
+	chromedriver!(No symbol) [0xad8262]
+	chromedriver!(No symbol) [0xa4517e]
+	chromedriver!(No symbol) [0xa4571e]
+	chromedriver!(No symbol) [0xa45bfd]
+	chromedriver!GetHandleVerifier [0xef4509+26d6c9]
+	chromedriver!GetHandleVerifier [0xeefb43+268d03]
+	chromedriver!GetHandleVerifier [0xf0d85b+286a1b]
+	chromedriver!GetHandleVerifier [0xcb1668+2a828]
+	chromedriver!GetHandleVerifier [0xcb97fd+329bd]
+	chromedriver!(No symbol) [0xa44ee9]
+	chromedriver!(No symbol) [0xa44530]
+	chromedriver!GetHandleVerifier [0x103dc9f+3b6e5f]
+	KERNEL32!BaseThreadInitThunk [0x76dd6359+19]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77247c24+e4]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77247bf4+b4]
+
+2026-03-23 23:00:02,144 - INFO - 尝试备用搜索方式...
+2026-03-23 23:00:02,145 - INFO - 使用备用搜索方式，访问: https://www.zhipin.com/web/geek/job?query=开发者&city=101210100
+2026-03-23 23:00:02,146 - ERROR - 备用搜索也失败: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xc97c13+10dd3]
+	chromedriver!GetHandleVerifier [0xc97d44+10f04]
+	chromedriver!(No symbol) [0xa71d8e]
+	chromedriver!(No symbol) [0xaaf2b5]
+	chromedriver!(No symbol) [0xadd7c6]
+	chromedriver!(No symbol) [0xad8c41]
+	chromedriver!(No symbol) [0xad8262]
+	chromedriver!(No symbol) [0xa4517e]
+	chromedriver!(No symbol) [0xa4571e]
+	chromedriver!(No symbol) [0xa45bfd]
+	chromedriver!GetHandleVerifier [0xef4509+26d6c9]
+	chromedriver!GetHandleVerifier [0xeefb43+268d03]
+	chromedriver!GetHandleVerifier [0xf0d85b+286a1b]
+	chromedriver!GetHandleVerifier [0xcb1668+2a828]
+	chromedriver!GetHandleVerifier [0xcb97fd+329bd]
+	chromedriver!(No symbol) [0xa44ee9]
+	chromedriver!(No symbol) [0xa44530]
+	chromedriver!GetHandleVerifier [0x103dc9f+3b6e5f]
+	KERNEL32!BaseThreadInitThunk [0x76dd6359+19]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77247c24+e4]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77247bf4+b4]
+
+2026-03-23 23:00:02,148 - INFO - 开始收集职位信息，最多翻页 3 页...
+2026-03-23 23:00:02,148 - INFO - 正在处理第 1 页...
+2026-03-23 23:00:05,164 - WARNING - 未找到职位卡片，可能页面未加载完成
+2026-03-23 23:00:08,176 - INFO - 找到 0 个职位卡片
+2026-03-23 23:00:08,187 - INFO - 没有更多页面了
+2026-03-23 23:00:08,187 - INFO - 共收集到 0 个符合条件的职位
+2026-03-23 23:00:08,187 - WARNING - 未收集到任何职位信息
+2026-03-23 23:00:08,188 - INFO - 正在关闭浏览器...
+2026-03-24 19:50:25,114 - INFO - 正在初始化浏览器...
+2026-03-24 19:50:25,129 - INFO - ====== WebDriver manager ======
+2026-03-24 19:50:26,738 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-24 19:50:28,001 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-24 19:50:28,262 - INFO - There is no [win64] chromedriver "146.0.7680.165" for browser google-chrome "146.0.7680" in cache
+2026-03-24 19:50:28,262 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-24 19:50:36,485 - INFO - WebDriver version 146.0.7680.165 selected
+2026-03-24 19:50:36,499 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/146.0.7680.165/win32/chromedriver-win32.zip
+2026-03-24 19:50:36,500 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/146.0.7680.165/win32/chromedriver-win32.zip
+2026-03-24 19:50:37,668 - INFO - Driver downloading response is 200
+2026-03-24 19:54:10,825 - INFO - 正在初始化浏览器...
+2026-03-24 19:54:10,826 - INFO - ====== WebDriver manager ======
+2026-03-24 19:54:12,492 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-24 19:54:14,716 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-24 19:54:15,031 - INFO - There is no [win64] chromedriver "146.0.7680.165" for browser google-chrome "146.0.7680" in cache
+2026-03-24 19:54:15,032 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-24 19:54:18,192 - INFO - WebDriver version 146.0.7680.165 selected
+2026-03-24 19:54:18,201 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/146.0.7680.165/win32/chromedriver-win32.zip
+2026-03-24 19:54:18,202 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/146.0.7680.165/win32/chromedriver-win32.zip
+2026-03-24 19:54:19,146 - INFO - Driver downloading response is 200
+2026-03-24 19:56:21,502 - INFO - 正在初始化浏览器...
+2026-03-24 19:56:21,503 - INFO - ====== WebDriver manager ======
+2026-03-24 19:56:23,212 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-24 19:56:23,542 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-24 19:56:24,248 - INFO - Driver [C:\Users\Administrator\.wdm\drivers\chromedriver\win64\146.0.7680.165\chromedriver-win32/chromedriver.exe] found in cache
+2026-03-24 19:56:25,971 - INFO - 浏览器初始化成功
+2026-03-24 19:56:25,971 - INFO - 正在访问Boss直聘网站...
+2026-03-24 19:57:12,869 - INFO - 可能已经处于登录状态或页面结构不同
+2026-03-24 19:57:15,870 - INFO - 开始搜索职位: 城市=苏州, 关键词=开发者
+2026-03-24 19:57:49,267 - ERROR - 无法找到搜索框，尝试直接访问搜索URL
+2026-03-24 19:57:49,269 - ERROR - 搜索职位时出错: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x4bcdf3+10b03]
+	chromedriver!GetHandleVerifier [0x4bcf24+10c34]
+	chromedriver!(No symbol) [0x2a1f5e]
+	chromedriver!(No symbol) [0x2df4b7]
+	chromedriver!(No symbol) [0x30d9c6]
+	chromedriver!(No symbol) [0x308e42]
+	chromedriver!(No symbol) [0x308462]
+	chromedriver!(No symbol) [0x27534e]
+	chromedriver!(No symbol) [0x2758ee]
+	chromedriver!(No symbol) [0x275dcd]
+	chromedriver!GetHandleVerifier [0x7248b9+2785c9]
+	chromedriver!GetHandleVerifier [0x71feb5+273bc5]
+	chromedriver!GetHandleVerifier [0x73e06b+291d7b]
+	chromedriver!GetHandleVerifier [0x4d5cc8+299d8]
+	chromedriver!GetHandleVerifier [0x4dd9fd+3170d]
+	chromedriver!(No symbol) [0x274ee9]
+	chromedriver!(No symbol) [0x274530]
+	chromedriver!GetHandleVerifier [0x872e9f+3c6baf]
+	KERNEL32!BaseThreadInitThunk [0x772e6359+19]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77c47c24+e4]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77c47bf4+b4]
+
+2026-03-24 19:57:49,271 - INFO - 尝试备用搜索方式...
+2026-03-24 19:57:49,272 - INFO - 使用备用搜索方式，访问: https://www.zhipin.com/web/geek/job?query=开发者&city=101210100
+2026-03-24 19:57:49,274 - ERROR - 备用搜索也失败: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x4bcdf3+10b03]
+	chromedriver!GetHandleVerifier [0x4bcf24+10c34]
+	chromedriver!(No symbol) [0x2a1f5e]
+	chromedriver!(No symbol) [0x2df4b7]
+	chromedriver!(No symbol) [0x30d9c6]
+	chromedriver!(No symbol) [0x308e42]
+	chromedriver!(No symbol) [0x308462]
+	chromedriver!(No symbol) [0x27534e]
+	chromedriver!(No symbol) [0x2758ee]
+	chromedriver!(No symbol) [0x275dcd]
+	chromedriver!GetHandleVerifier [0x7248b9+2785c9]
+	chromedriver!GetHandleVerifier [0x71feb5+273bc5]
+	chromedriver!GetHandleVerifier [0x73e06b+291d7b]
+	chromedriver!GetHandleVerifier [0x4d5cc8+299d8]
+	chromedriver!GetHandleVerifier [0x4dd9fd+3170d]
+	chromedriver!(No symbol) [0x274ee9]
+	chromedriver!(No symbol) [0x274530]
+	chromedriver!GetHandleVerifier [0x872e9f+3c6baf]
+	KERNEL32!BaseThreadInitThunk [0x772e6359+19]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77c47c24+e4]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77c47bf4+b4]
+
+2026-03-24 19:57:49,276 - INFO - 开始收集职位信息，最多翻页 3 页...
+2026-03-24 19:57:49,276 - INFO - 正在处理第 1 页...
+2026-03-24 19:57:52,292 - WARNING - 未找到职位卡片，可能页面未加载完成
+2026-03-24 19:57:55,313 - INFO - 找到 0 个职位卡片
+2026-03-24 19:57:55,335 - INFO - 没有更多页面了
+2026-03-24 19:57:55,335 - INFO - 共收集到 0 个符合条件的职位
+2026-03-24 19:57:55,335 - WARNING - 未收集到任何职位信息
+2026-03-24 19:57:55,336 - INFO - 正在关闭浏览器...
+2026-03-24 20:04:21,618 - INFO - 正在初始化浏览器...
+2026-03-24 20:04:21,619 - INFO - ====== WebDriver manager ======
+2026-03-24 20:04:23,318 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-24 20:04:25,750 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-24 20:04:26,269 - INFO - Driver [C:\Users\Administrator\.wdm\drivers\chromedriver\win64\146.0.7680.165\chromedriver-win32/chromedriver.exe] found in cache
+2026-03-24 20:04:27,987 - INFO - 浏览器初始化成功
+2026-03-24 20:04:27,988 - INFO - 正在访问Boss直聘网站...
+2026-03-24 20:04:54,828 - INFO - 可能已经处于登录状态或页面结构不同
+2026-03-24 20:04:57,829 - INFO - 开始搜索职位: 城市=苏州, 关键词=开发者
+2026-03-24 20:05:00,876 - ERROR - 无法找到搜索框，尝试直接访问搜索URL
+2026-03-24 20:05:00,879 - ERROR - 搜索职位时出错: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x4bcdf3+10b03]
+	chromedriver!GetHandleVerifier [0x4bcf24+10c34]
+	chromedriver!(No symbol) [0x2a1f5e]
+	chromedriver!(No symbol) [0x2df4b7]
+	chromedriver!(No symbol) [0x30d9c6]
+	chromedriver!(No symbol) [0x308e42]
+	chromedriver!(No symbol) [0x308462]
+	chromedriver!(No symbol) [0x27534e]
+	chromedriver!(No symbol) [0x2758ee]
+	chromedriver!(No symbol) [0x275dcd]
+	chromedriver!GetHandleVerifier [0x7248b9+2785c9]
+	chromedriver!GetHandleVerifier [0x71feb5+273bc5]
+	chromedriver!GetHandleVerifier [0x73e06b+291d7b]
+	chromedriver!GetHandleVerifier [0x4d5cc8+299d8]
+	chromedriver!GetHandleVerifier [0x4dd9fd+3170d]
+	chromedriver!(No symbol) [0x274ee9]
+	chromedriver!(No symbol) [0x274530]
+	chromedriver!GetHandleVerifier [0x872e9f+3c6baf]
+	KERNEL32!BaseThreadInitThunk [0x772e6359+19]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77c47c24+e4]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77c47bf4+b4]
+
+2026-03-24 20:05:00,883 - INFO - 尝试备用搜索方式...
+2026-03-24 20:05:00,883 - INFO - 使用备用搜索方式，访问: https://www.zhipin.com/web/geek/job?query=开发者&city=101210100
+2026-03-24 20:05:00,887 - ERROR - 备用搜索也失败: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x4bcdf3+10b03]
+	chromedriver!GetHandleVerifier [0x4bcf24+10c34]
+	chromedriver!(No symbol) [0x2a1f5e]
+	chromedriver!(No symbol) [0x2df4b7]
+	chromedriver!(No symbol) [0x30d9c6]
+	chromedriver!(No symbol) [0x308e42]
+	chromedriver!(No symbol) [0x308462]
+	chromedriver!(No symbol) [0x27534e]
+	chromedriver!(No symbol) [0x2758ee]
+	chromedriver!(No symbol) [0x275dcd]
+	chromedriver!GetHandleVerifier [0x7248b9+2785c9]
+	chromedriver!GetHandleVerifier [0x71feb5+273bc5]
+	chromedriver!GetHandleVerifier [0x73e06b+291d7b]
+	chromedriver!GetHandleVerifier [0x4d5cc8+299d8]
+	chromedriver!GetHandleVerifier [0x4dd9fd+3170d]
+	chromedriver!(No symbol) [0x274ee9]
+	chromedriver!(No symbol) [0x274530]
+	chromedriver!GetHandleVerifier [0x872e9f+3c6baf]
+	KERNEL32!BaseThreadInitThunk [0x772e6359+19]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77c47c24+e4]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77c47bf4+b4]
+
+2026-03-24 20:05:00,889 - INFO - 开始收集职位信息，最多翻页 3 页...
+2026-03-24 20:05:00,889 - INFO - 正在处理第 1 页...
+2026-03-24 20:05:03,907 - WARNING - 未找到职位卡片，可能页面未加载完成
+2026-03-24 20:05:06,384 - INFO - 正在关闭浏览器...
+2026-03-24 20:05:06,386 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, '远程主机强迫关闭了一个现有的连接。', None, 10054, None)': /session/92f53fc9b62df5d56dc0e61eb8d298e6
+2026-03-24 20:05:08,393 - INFO - 正在关闭浏览器...
+2026-03-24 20:05:12,404 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=9271): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。")': /session/92f53fc9b62df5d56dc0e61eb8d298e6
+2026-03-24 20:05:16,411 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=9271): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。")': /session/92f53fc9b62df5d56dc0e61eb8d298e6
+2026-03-24 20:05:20,417 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError("HTTPConnection(host='localhost', port=9271): Failed to establish a new connection: [WinError 10061] 由于目标计算机积极拒绝，无法连接。")': /session/92f53fc9b62df5d56dc0e61eb8d298e6
+2026-03-24 20:05:30,491 - INFO - 正在初始化浏览器...
+2026-03-24 20:05:30,492 - INFO - ====== WebDriver manager ======
+2026-03-24 20:05:32,157 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-24 20:05:32,496 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-24 20:05:32,831 - INFO - Driver [C:\Users\Administrator\.wdm\drivers\chromedriver\win64\146.0.7680.165\chromedriver-win32/chromedriver.exe] found in cache
+2026-03-24 20:05:34,598 - INFO - 浏览器初始化成功
+2026-03-24 20:05:34,598 - INFO - 正在访问Boss直聘网站...
+2026-03-24 20:06:21,222 - INFO - 可能已经处于登录状态或页面结构不同
+2026-03-24 20:06:24,224 - INFO - 开始搜索职位: 城市=苏州, 关键词=开发者
+2026-03-24 20:07:17,634 - ERROR - 无法找到搜索框，尝试直接访问搜索URL
+2026-03-24 20:07:23,868 - INFO - 已跳转到搜索页面: https://www.zhipin.com/web/geek/job?query=开发者&city=101210100
+2026-03-24 20:07:23,869 - INFO - 正在应用筛选条件...
+2026-03-24 20:09:21,050 - WARNING - 点击筛选选项失败 公司规模-100-10000人: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=146.0.7680.80); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x4bcdf3+10b03]
+	chromedriver!GetHandleVerifier [0x4bcf24+10c34]
+	chromedriver!(No symbol) [0x2a2120]
+	chromedriver!(No symbol) [0x291649]
+	chromedriver!(No symbol) [0x2915c6]
+	chromedriver!(No symbol) [0x290123]
+	chromedriver!(No symbol) [0x290b46]
+	chromedriver!(No symbol) [0x2a6dfe]
+	chromedriver!(No symbol) [0x2a75e5]
+	chromedriver!(No symbol) [0x2ab02a]
+	chromedriver!(No symbol) [0x2ab0b8]
+	chromedriver!(No symbol) [0x2ea640]
+	chromedriver!(No symbol) [0x2eae6b]
+	chromedriver!(No symbol) [0x32d0ec]
+	chromedriver!(No symbol) [0x30db54]
+	chromedriver!(No symbol) [0x32a9a5]
+	chromedriver!(No symbol) [0x30d8a6]
+	chromedriver!(No symbol) [0x2e0229]
+	chromedriver!(No symbol) [0x2e0fe4]
+	chromedriver!GetHandleVerifier [0x7248b9+2785c9]
+	chromedriver!GetHandleVerifier [0x71feb5+273bc5]
+	chromedriver!GetHandleVerifier [0x73e06b+291d7b]
+	chromedriver!GetHandleVerifier [0x4d5cc8+299d8]
+	chromedriver!GetHandleVerifier [0x4dd9fd+3170d]
+	chromedriver!GetHandleVerifier [0x4c58c8+195d8]
+	chromedriver!GetHandleVerifier [0x4c5a92+197a2]
+	chromedriver!GetHandleVerifier [0x4aee9a+2baa]
+	KERNEL32!BaseThreadInitThunk [0x772e6359+19]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77c47c24+e4]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77c47bf4+b4]
+
+2026-03-24 20:09:21,053 - INFO - 筛选条件应用完成
+2026-03-24 20:09:21,054 - INFO - 开始收集职位信息，最多翻页 3 页...
+2026-03-24 20:09:21,054 - INFO - 正在处理第 1 页...
+2026-03-24 20:09:24,079 - WARNING - 未找到职位卡片，可能页面未加载完成
+2026-03-24 20:09:27,095 - INFO - 找到 0 个职位卡片
+2026-03-24 20:09:27,109 - INFO - 没有更多页面了
+2026-03-24 20:09:27,109 - INFO - 共收集到 0 个符合条件的职位
+2026-03-24 20:09:27,110 - WARNING - 未收集到任何职位信息
+2026-03-24 20:09:27,110 - INFO - 正在关闭浏览器...
+2026-03-24 20:12:21,048 - INFO - 正在初始化浏览器...
+2026-03-24 20:12:21,049 - INFO - ====== WebDriver manager ======
+2026-03-24 20:12:22,668 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-24 20:12:23,187 - INFO - Get LATEST chromedriver version for google-chrome
+2026-03-24 20:12:23,700 - INFO - Driver [C:\Users\Administrator\.wdm\drivers\chromedriver\win64\146.0.7680.165\chromedriver-win32/chromedriver.exe] found in cache
+2026-03-24 20:12:25,520 - INFO - 浏览器初始化成功
+2026-03-24 20:12:25,520 - INFO - 正在访问Boss直聘网站...
+2026-03-24 20:13:16,966 - INFO - 首页未发现职位卡片，尝试点击职位按钮或登录...
+2026-03-24 20:13:16,967 - INFO - 正在查找头部职位按钮...
+2026-03-24 20:13:57,274 - WARNING - 未找到头部职位按钮
+2026-03-24 20:13:57,274 - INFO - 正在查找登录按钮...
+2026-03-24 20:14:42,608 - WARNING - 未找到登录按钮
+2026-03-24 20:14:42,608 - INFO - 开始搜索职位: 城市=苏州, 关键词=开发者
+2026-03-24 20:16:16,444 - WARNING - 无法找到搜索框，尝试直接访问搜索URL
+2026-03-24 20:16:16,444 - INFO - 使用备用搜索方式，访问: https://www.zhipin.com/web/geek/job?query=开发者&city=101210100
+2026-03-24 20:16:23,566 - INFO - 正在应用筛选条件...
+2026-03-24 20:17:00,756 - WARNING - 点击筛选选项失败 城市-苏州: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=146.0.7680.80); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x4bcdf3+10b03]
+	chromedriver!GetHandleVerifier [0x4bcf24+10c34]
+	chromedriver!(No symbol) [0x2a2120]
+	chromedriver!(No symbol) [0x291649]
+	chromedriver!(No symbol) [0x2915c6]
+	chromedriver!(No symbol) [0x290123]
+	chromedriver!(No symbol) [0x290b46]
+	chromedriver!(No symbol) [0x2a6dfe]
+	chromedriver!(No symbol) [0x2a75e5]
+	chromedriver!(No symbol) [0x2ab02a]
+	chromedriver!(No symbol) [0x2ab0b8]
+	chromedriver!(No symbol) [0x2ea640]
+	chromedriver!(No symbol) [0x2eae6b]
+	chromedriver!(No symbol) [0x32d0ec]
+	chromedriver!(No symbol) [0x30db54]
+	chromedriver!(No symbol) [0x32a9a5]
+	chromedriver!(No symbol) [0x30d8a6]
+	chromedriver!(No symbol) [0x2e0229]
+	chromedriver!(No symbol) [0x2e0fe4]
+	chromedriver!GetHandleVerifier [0x7248b9+2785c9]
+	chromedriver!GetHandleVerifier [0x71feb5+273bc5]
+	chromedriver!GetHandleVerifier [0x73e06b+291d7b]
+	chromedriver!GetHandleVerifier [0x4d5cc8+299d8]
+	chromedriver!GetHandleVerifier [0x4dd9fd+3170d]
+	chromedriver!GetHandleVerifier [0x4c58c8+195d8]
+	chromedriver!GetHandleVerifier [0x4c5a92+197a2]
+	chromedriver!GetHandleVerifier [0x4aee9a+2baa]
+	KERNEL32!BaseThreadInitThunk [0x772e6359+19]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77c47c24+e4]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77c47bf4+b4]
+
+2026-03-24 20:17:01,014 - WARNING - 点击筛选选项失败 薪资-10-13K: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x4bcdf3+10b03]
+	chromedriver!GetHandleVerifier [0x4bcf24+10c34]
+	chromedriver!(No symbol) [0x2a1f5e]
+	chromedriver!(No symbol) [0x2df4b7]
+	chromedriver!(No symbol) [0x30d9c6]
+	chromedriver!(No symbol) [0x308e42]
+	chromedriver!(No symbol) [0x308462]
+	chromedriver!(No symbol) [0x27534e]
+	chromedriver!(No symbol) [0x2758ee]
+	chromedriver!(No symbol) [0x275dcd]
+	chromedriver!GetHandleVerifier [0x7248b9+2785c9]
+	chromedriver!GetHandleVerifier [0x71feb5+273bc5]
+	chromedriver!GetHandleVerifier [0x73e06b+291d7b]
+	chromedriver!GetHandleVerifier [0x4d5cc8+299d8]
+	chromedriver!GetHandleVerifier [0x4dd9fd+3170d]
+	chromedriver!(No symbol) [0x274ee9]
+	chromedriver!(No symbol) [0x274530]
+	chromedriver!GetHandleVerifier [0x872e9f+3c6baf]
+	KERNEL32!BaseThreadInitThunk [0x772e6359+19]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77c47c24+e4]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77c47bf4+b4]
+
+2026-03-24 20:17:01,019 - WARNING - 点击筛选选项失败 公司规模-100-10000人: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x4bcdf3+10b03]
+	chromedriver!GetHandleVerifier [0x4bcf24+10c34]
+	chromedriver!(No symbol) [0x2a1f5e]
+	chromedriver!(No symbol) [0x2df4b7]
+	chromedriver!(No symbol) [0x30d9c6]
+	chromedriver!(No symbol) [0x308e42]
+	chromedriver!(No symbol) [0x308462]
+	chromedriver!(No symbol) [0x27534e]
+	chromedriver!(No symbol) [0x2758ee]
+	chromedriver!(No symbol) [0x275dcd]
+	chromedriver!GetHandleVerifier [0x7248b9+2785c9]
+	chromedriver!GetHandleVerifier [0x71feb5+273bc5]
+	chromedriver!GetHandleVerifier [0x73e06b+291d7b]
+	chromedriver!GetHandleVerifier [0x4d5cc8+299d8]
+	chromedriver!GetHandleVerifier [0x4dd9fd+3170d]
+	chromedriver!(No symbol) [0x274ee9]
+	chromedriver!(No symbol) [0x274530]
+	chromedriver!GetHandleVerifier [0x872e9f+3c6baf]
+	KERNEL32!BaseThreadInitThunk [0x772e6359+19]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77c47c24+e4]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77c47bf4+b4]
+
+2026-03-24 20:17:01,022 - INFO - 筛选条件应用完成
+2026-03-24 20:17:01,023 - INFO - 开始收集职位信息，最多翻页 3 页...
+2026-03-24 20:17:01,023 - INFO - 正在处理第 1 页...
+2026-03-24 20:17:04,042 - WARNING - 未找到职位卡片，可能页面未加载完成
+2026-03-24 20:17:07,068 - INFO - 找到 0 个职位卡片
+2026-03-24 20:17:07,083 - INFO - 没有更多页面了
+2026-03-24 20:17:07,084 - INFO - 共收集到 0 个符合条件的职位
+2026-03-24 20:17:07,085 - WARNING - 未收集到任何职位信息
+2026-03-24 20:17:07,085 - INFO - 正在关闭浏览器...
