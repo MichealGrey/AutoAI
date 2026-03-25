@@ -1,0 +1,21 @@
+{
+  "search_config": {
+    "city": "苏州",
+    "keyword": "开发者",
+    "salary_range": "10-13K",
+    "company_size": "100-10000人",
+    "max_pages": 3
+  },
+  "browser_config": {
+    "headless": false,
+    "wait_timeout": 10,
+    "implicit_wait": 5
+  },
+  "filter_criteria": {
+    "min_salary_k": 10,
+    "max_salary_k": 13,
+    "min_company_size": 100,
+    "max_company_size": 10000,
+    "job_types": ["全职", "全职开发者", "Java", "Python", "前端", "后端"]
+  }
+}
