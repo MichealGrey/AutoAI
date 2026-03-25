@@ -1,0 +1,76 @@
+2026-03-24 19:48:01.375 | INFO     | __main__:search_jobs:57 - 开始职位搜索任务: JobSearchConfig(city='苏州', salary_min=10, salary_max=13, company_size_min=100, company_size_max=10000, job_type='全职', keyword='开发者', max_jobs=50, output_path='E:\\AiProj\\mark\\dogfood-2-615\\glm5.0\\AutoAI\\JobSearch\\output')
+2026-03-24 19:48:01.377 | INFO     | JobSearch.controllers.bossZhipin:init_driver:28 - 初始化浏览器驱动...
+2026-03-24 19:55:21.973 | INFO     | __main__:search_jobs:57 - 开始职位搜索任务: JobSearchConfig(city='苏州', salary_min=10, salary_max=13, company_size_min=100, company_size_max=10000, job_type='全职', keyword='开发者', max_jobs=50, output_path='E:\\AiProj\\mark\\dogfood-2-615\\glm5.0\\AutoAI\\JobSearch\\output')
+2026-03-24 19:55:21.992 | INFO     | JobSearch.controllers.bossZhipin:init_driver:114 - 初始化浏览器驱动...
+2026-03-24 19:55:21.993 | INFO     | JobSearch.controllers.bossZhipin:_check_chrome_installed:94 - 检测到Chrome浏览器版本: 146.0.7680.80
+2026-03-24 19:55:21.996 | WARNING  | JobSearch.controllers.bossZhipin:_check_chromedriver_exists:85 - 系统未找到ChromeDriver
+2026-03-24 19:55:21.996 | INFO     | JobSearch.controllers.bossZhipin:init_driver:123 - 系统未安装ChromeDriver，尝试自动下载...
+2026-03-24 19:55:21.997 | INFO     | JobSearch.controllers.bossZhipin:_get_chrome_driver_path:104 - 正在使用webdriver-manager自动下载/更新ChromeDriver...
+2026-03-24 19:55:34.908 | INFO     | JobSearch.controllers.bossZhipin:_get_chrome_driver_path:106 - ChromeDriver路径: C:\Users\Administrator\.wdm\drivers\chromedriver\win64\146.0.7680.165\chromedriver-win32/chromedriver.exe
+2026-03-24 19:55:41.544 | INFO     | JobSearch.controllers.bossZhipin:init_driver:156 - 浏览器驱动初始化完成
+2026-03-24 19:55:41.545 | INFO     | JobSearch.controllers.bossZhipin:open_website:185 - 打开Boss直聘网站: https://www.zhipin.com/
+2026-03-24 19:55:47.825 | INFO     | JobSearch.controllers.bossZhipin:wait_for_login:190 - 等待用户扫码登录...
+2026-03-24 19:57:34.523 | INFO     | __main__:search_jobs:57 - 开始职位搜索任务: JobSearchConfig(city='苏州', salary_min=10, salary_max=13, company_size_min=100, company_size_max=10000, job_type='全职', keyword='开发者', max_jobs=50, output_path='E:\\AiProj\\mark\\dogfood-2-615\\glm5.0\\AutoAI\\JobSearch\\output')
+2026-03-24 19:57:34.526 | INFO     | JobSearch.controllers.bossZhipin:init_driver:114 - 初始化浏览器驱动...
+2026-03-24 19:57:34.527 | INFO     | JobSearch.controllers.bossZhipin:_check_chrome_installed:94 - 检测到Chrome浏览器版本: 146.0.7680.80
+2026-03-24 19:57:34.531 | WARNING  | JobSearch.controllers.bossZhipin:_check_chromedriver_exists:85 - 系统未找到ChromeDriver
+2026-03-24 19:57:34.532 | INFO     | JobSearch.controllers.bossZhipin:init_driver:123 - 系统未安装ChromeDriver，尝试自动下载...
+2026-03-24 19:57:34.533 | INFO     | JobSearch.controllers.bossZhipin:_get_chrome_driver_path:104 - 正在使用webdriver-manager自动下载/更新ChromeDriver...
+2026-03-24 19:57:37.161 | INFO     | JobSearch.controllers.bossZhipin:_get_chrome_driver_path:106 - ChromeDriver路径: C:\Users\Administrator\.wdm\drivers\chromedriver\win64\146.0.7680.165\chromedriver-win32/chromedriver.exe
+2026-03-24 19:57:38.969 | INFO     | JobSearch.controllers.bossZhipin:init_driver:156 - 浏览器驱动初始化完成
+2026-03-24 19:57:38.970 | INFO     | JobSearch.controllers.bossZhipin:open_website:185 - 打开Boss直聘网站: https://www.zhipin.com/
+2026-03-24 19:57:43.901 | INFO     | JobSearch.controllers.bossZhipin:wait_for_login:190 - 等待用户扫码登录...
+2026-03-24 19:57:48.262 | ERROR    | JobSearch.controllers.bossZhipin:run:497 - 运行出错: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=146.0.7680.80); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0x4bcdf3+10b03]
+	chromedriver!GetHandleVerifier [0x4bcf24+10c34]
+	chromedriver!(No symbol) [0x2a2120]
+	chromedriver!(No symbol) [0x29108e]
+	chromedriver!(No symbol) [0x2afbe9]
+	chromedriver!(No symbol) [0x31450c]
+	chromedriver!(No symbol) [0x32a309]
+	chromedriver!(No symbol) [0x30d8a6]
+	chromedriver!(No symbol) [0x2e0229]
+	chromedriver!(No symbol) [0x2e0fe4]
+	chromedriver!GetHandleVerifier [0x7248b9+2785c9]
+	chromedriver!GetHandleVerifier [0x71feb5+273bc5]
+	chromedriver!GetHandleVerifier [0x73e06b+291d7b]
+	chromedriver!GetHandleVerifier [0x4d5cc8+299d8]
+	chromedriver!GetHandleVerifier [0x4dd9fd+3170d]
+	chromedriver!GetHandleVerifier [0x4c58c8+195d8]
+	chromedriver!GetHandleVerifier [0x4c5a92+197a2]
+	chromedriver!GetHandleVerifier [0x4aee9a+2baa]
+	KERNEL32!BaseThreadInitThunk [0x772e6359+19]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77c47c24+e4]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x77c47bf4+b4]
+
+2026-03-24 19:57:52.084 | INFO     | JobSearch.controllers.bossZhipin:close:478 - 浏览器已关闭
+2026-03-24 19:57:52.085 | WARNING  | __main__:search_jobs:66 - 未收集到任何职位
+2026-03-24 19:58:09.759 | INFO     | __main__:search_jobs:57 - 开始职位搜索任务: JobSearchConfig(city='苏州', salary_min=10, salary_max=13, company_size_min=100, company_size_max=10000, job_type='全职', keyword='开发者', max_jobs=50, output_path='E:\\AiProj\\mark\\dogfood-2-615\\glm5.0\\AutoAI\\JobSearch\\output')
+2026-03-24 19:58:09.761 | INFO     | JobSearch.controllers.bossZhipin:init_driver:114 - 初始化浏览器驱动...
+2026-03-24 19:58:09.762 | INFO     | JobSearch.controllers.bossZhipin:_check_chrome_installed:94 - 检测到Chrome浏览器版本: 146.0.7680.80
+2026-03-24 19:58:09.765 | WARNING  | JobSearch.controllers.bossZhipin:_check_chromedriver_exists:85 - 系统未找到ChromeDriver
+2026-03-24 19:58:09.766 | INFO     | JobSearch.controllers.bossZhipin:init_driver:123 - 系统未安装ChromeDriver，尝试自动下载...
+2026-03-24 19:58:09.767 | INFO     | JobSearch.controllers.bossZhipin:_get_chrome_driver_path:104 - 正在使用webdriver-manager自动下载/更新ChromeDriver...
+2026-03-24 19:58:12.365 | INFO     | JobSearch.controllers.bossZhipin:_get_chrome_driver_path:106 - ChromeDriver路径: C:\Users\Administrator\.wdm\drivers\chromedriver\win64\146.0.7680.165\chromedriver-win32/chromedriver.exe
+2026-03-24 19:58:14.169 | INFO     | JobSearch.controllers.bossZhipin:init_driver:156 - 浏览器驱动初始化完成
+2026-03-24 19:58:14.170 | INFO     | JobSearch.controllers.bossZhipin:open_website:185 - 打开Boss直聘网站: https://www.zhipin.com/
+2026-03-24 19:58:19.747 | INFO     | JobSearch.controllers.bossZhipin:wait_for_login:190 - 等待用户扫码登录...
+2026-03-24 20:00:21.513 | ERROR    | JobSearch.controllers.bossZhipin:wait_for_login:211 - 登录超时，请重新运行脚本
+2026-03-24 20:00:25.317 | INFO     | JobSearch.controllers.bossZhipin:close:478 - 浏览器已关闭
+2026-03-24 20:00:25.318 | WARNING  | __main__:search_jobs:66 - 未收集到任何职位
+2026-03-24 20:00:44.897 | INFO     | __main__:search_jobs:57 - 开始职位搜索任务: JobSearchConfig(city='苏州', salary_min=10, salary_max=13, company_size_min=100, company_size_max=10000, job_type='全职', keyword='开发者', max_jobs=50, output_path='E:\\AiProj\\mark\\dogfood-2-615\\glm5.0\\AutoAI\\JobSearch\\output')
+2026-03-24 20:00:44.900 | INFO     | JobSearch.controllers.bossZhipin:init_driver:114 - 初始化浏览器驱动...
+2026-03-24 20:00:44.902 | INFO     | JobSearch.controllers.bossZhipin:_check_chrome_installed:94 - 检测到Chrome浏览器版本: 146.0.7680.80
+2026-03-24 20:00:44.905 | WARNING  | JobSearch.controllers.bossZhipin:_check_chromedriver_exists:85 - 系统未找到ChromeDriver
+2026-03-24 20:00:44.906 | INFO     | JobSearch.controllers.bossZhipin:init_driver:123 - 系统未安装ChromeDriver，尝试自动下载...
+2026-03-24 20:00:44.906 | INFO     | JobSearch.controllers.bossZhipin:_get_chrome_driver_path:104 - 正在使用webdriver-manager自动下载/更新ChromeDriver...
+2026-03-24 20:00:47.499 | INFO     | JobSearch.controllers.bossZhipin:_get_chrome_driver_path:106 - ChromeDriver路径: C:\Users\Administrator\.wdm\drivers\chromedriver\win64\146.0.7680.165\chromedriver-win32/chromedriver.exe
+2026-03-24 20:00:49.030 | INFO     | JobSearch.controllers.bossZhipin:init_driver:156 - 浏览器驱动初始化完成
+2026-03-24 20:00:49.031 | INFO     | JobSearch.controllers.bossZhipin:open_website:185 - 打开Boss直聘网站: https://www.zhipin.com/
+2026-03-24 20:00:54.064 | INFO     | JobSearch.controllers.bossZhipin:wait_for_login:190 - 等待用户扫码登录...
+2026-03-24 20:02:55.931 | ERROR    | JobSearch.controllers.bossZhipin:wait_for_login:211 - 登录超时，请重新运行脚本
+2026-03-24 20:02:59.718 | INFO     | JobSearch.controllers.bossZhipin:close:478 - 浏览器已关闭
+2026-03-24 20:02:59.719 | WARNING  | __main__:search_jobs:66 - 未收集到任何职位
